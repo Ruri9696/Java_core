@@ -13,7 +13,7 @@ public class HW01 {
                 new Athlete("Никита", 8, 6));
 
         team.getTeamInfo();
-        System.out.println(" ");
+        System.out.println("----------");
         System.out.println("Результаты испытаний: ");
         c.doIt(team);
         team.showResults();
