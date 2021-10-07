@@ -10,10 +10,12 @@ public class HW01 {
         });
         Team team = new Team("Ракета",
                 new Athlete("Василий", 4, 12),
+                new Athlete("Ольга", 3, 10),
+                new Athlete("Елена", 6, 8),
                 new Athlete("Никита", 8, 6));
 
         team.getTeamInfo();
-        System.out.println("----------");
+        System.out.println(" ");
         System.out.println("Результаты испытаний: ");
         c.doIt(team);
         team.showResults();
